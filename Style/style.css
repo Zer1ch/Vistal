@@ -3,16 +3,6 @@
     margin: 0;
 }
 
-.upHead {
-    height: 51px;
-    background-color: #00486D;
-    color: #99B6C5;
-    font-family: DM Sans;
-    font-size: 18px;
-    line-height: 51px;
-    text-align: center;
-}
-
 .header {
     display: flex;
     justify-content: space-between;

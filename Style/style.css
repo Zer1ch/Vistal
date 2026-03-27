@@ -34,8 +34,8 @@
 
 .header-menu a {
     text-decoration: none;
-    font-family: DM Sans;
-    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
     line-height: 107px;
     color: #00486D;
     margin-right: 40px;
@@ -47,15 +47,15 @@
 }
 
 .header-phone {
-    font-family: DM Sans;
-    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
     line-height: 107px;
     color: #00486D;
 }
 
 .button {
    height: 59px;
-    font-family: DM Sans;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 59px;
@@ -86,16 +86,16 @@
 }
 
 h1 {
-    font-family: DM Serif Text;
-    font-size: 55px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 45px;
     line-height: 67.2px;
     color: #00486D;
     margin-bottom: 25px;
 }
 
 p {
-    font-family: DM Sans;
-    font-size: 24px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
     line-height: 42px;
     color: #00486D;
 }
@@ -133,7 +133,7 @@ p {
 }
 
 h2 {
-    font-family: DM Serif Text;
+    font-family: "Roboto Mono", monospace;
     font-size: 44px;
     line-height: 52.8px;
     color: #00486D;
@@ -156,7 +156,7 @@ h2 {
 .card a {
     position: absolute;
     text-decoration: none;
-    font-family: DM Sans;
+    font-family: "Roboto Mono", monospace;
     font-size: 19px;
     line-height: 50px;  
     color: #00486D;
@@ -170,8 +170,8 @@ h2 {
 }
 
 .card-name {
-    font-family: DM Sans;
-    font-size: 35px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
     line-height: 120px;
     color: #00486D;
     margin-top: 48px;
@@ -184,6 +184,8 @@ h2 {
 }
 
 .team h3 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 34px;
     margin-top: 225px;
     text-align: center;
     color: #0011ff;
@@ -191,6 +193,8 @@ h2 {
 }
 
 .team p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 19px;
     text-align: center;
     color: #0011ff;
 }
@@ -207,6 +211,8 @@ h2 {
 }
 
 .partners h2 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
     margin-bottom: 40px;
     color: #00486D; 
 }
@@ -229,13 +235,11 @@ h2 {
     border-radius: 8px; /* Заокруглені кути */
     text-decoration: none;
     
-    /* Текст всередині кнопки */
-    color: #4A5568; 
-    font-family: DM Sans, sans-serif;
+    color: #000000; 
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 25px;
     
-    /* Легка тінь і плавна анімація */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
     transition: all 0.3s ease;
 }
@@ -281,7 +285,7 @@ h2 {
 }
 
 .address, .phone, .mail {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -310,7 +314,7 @@ h2 {
 }
 
 .soc-item-txt {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #99B6C5;
@@ -346,7 +350,7 @@ input {
     position: static; 
     flex-grow: 1; /* Поле вводу займає весь вільний простір зліва від кнопки */
     height: 100%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #00486D;
     padding-left: 20px;

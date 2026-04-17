@@ -219,11 +219,14 @@
         margin-bottom: 20px; /* Відступ між абзацами */
     }
 
-    .arrow {
-        position: absolute;
-        right: 0px;
-        top: -200px;
-    }
+   .arrow {
+    position: absolute;
+    right: 0px;
+    
+    /* ВИДАЛЯЄМО top: -200px; і додаємо магію центрування: */
+    top: 50%; /* Опускає стрілку рівно на половину висоти блоку */
+    transform: translateY(-50%); /* Піднімає її на половину власної висоти, щоб був ідеальний центр */
+}
 
     .partners {
         padding-top: 100px;

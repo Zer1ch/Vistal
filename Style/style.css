@@ -6,8 +6,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 107px;
-        /
+        height: 70px;
     }
 
     .container {
@@ -488,6 +487,90 @@
     transform: translateY(-10px) rotate(-45deg);
 }
 
+/* =========================================
+   📄 СТОРІНКА "ПРО НАС" (about.html)
+   ========================================= */
+.about-page {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.about-main-title {
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-block {
+    background-color: #E4ECF0;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.about-block h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-block p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Красивий випадаючий список для довгого тексту */
+.activity-spoiler {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.activity-spoiler summary {
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00486D;
+    outline: none;
+}
+
+.activity-spoiler p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Список продукції */
+.products-list {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.products-list li {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #00486D;
+    line-height: 1.8;
+}
+
+/* Фінальний блок */
+.about-call-to-action {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.inline-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Щоб кнопка-посилання виглядала правильно */
+    text-decoration: none;
+    margin-top: 20px;
+}
+
         @media (max-width: 1024px) {
         
     /* 1. Зменшуємо загальні відступи по боках */
@@ -505,6 +588,7 @@
         align-items: center;
         padding: 15px 0;
     }
+
     .header-left { 
         gap: 15px; 
     }

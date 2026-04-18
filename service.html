@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/style.css">
+</head> 
+<body>
+    <header class="header container">
+        <div class="header-left">
+            <div class="header-logo">
+                <a href="index.html">
+                <img src="Img/vistal.png" alt="logo">
+                </a>
+            </div>
+            <div class="header-menu" id="menu-links">
+                <a href="service.html">Сервіс</a>
+                <a href="about.html">Про нас</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-phone">+380 98 243 58 38</div>   
+            <button class="button">Замовити консультацію</button>
+        </div>
+        <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+        </div>
+    </header>
+    
+    <h1>Сервіс</h1> 
+
+    <footer class="footer container">
+      <div class="footer-leftSide">
+      
+      <div class="contacts">
+        <div class="address">
+            29000, вул. Тернопільська, 9
+        </div>
+        <div class="phone">
+            +380 98 243 58 38
+        </div>
+        <div class="mail">
+            Vistal@gmail.com
+        </div>
+      </div>
+      <div class="socials">
+        <div class="social-item"><img src="Img/F.png" alt=""><div class="soc-item-txt">Facebook</div></div>
+        <div class="social-item"><img src="Img/T.png" alt=""><div class="soc-item-txt">Twitter</div></div>
+      </div>
+      </div>
+      <div class="footer-main">
+        <h4 class="white">
+            Отримуйте актуальні новити щодо правил компанії, нових товарів та послуг залишивши вашу електрону адресу.
+        </h4>
+        <div class="combiInput">
+            <input type="text" placeholder="Електрона адреса">
+            <button class="imageButton"><img src="Img/send.png" alt=">"></button>
+        </div>
+      </div>
+    </footer>
+    <script>
+        // Знаходимо бургер і меню за їхніми ID
+        const burger = document.getElementById('burger');
+        const menu = document.getElementById('menu-links');
+
+        // Додаємо подію кліку
+        burger.addEventListener('click', function() {
+            // Перемикаємо клас 'active' (якщо його немає - додає, якщо є - забирає)
+            menu.classList.toggle('active');
+            burger.classList.toggle('active'); // ДОДАЙ ЦЕЙ РЯДОК: Тепер бургер теж знає, що він натиснутий
+        });
+    </script>
+</body>
+<script src="script.js"></script>
+</html>
+</body>
+</html> 
+</html>
